@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameters TestSuite]">
+  <parameter name="Value3" value="15.5"/>
+  <parameter name="Value4" value="5.5"/>
+  <parameter name="Value1" value="10"/>
+  <parameter name="Value2" value="20"/>
+  <test name="Test 1">
+    <parameter name="Value3" value="15.5"/>
+    <parameter name="Value4" value="5.5"/>
+    <parameter name="Value1" value="10"/>
+    <parameter name="Value2" value="20"/>
+    <classes>
+      <class name="com.calculator.parameters.TestNG_ParameterClass"/>
+    </classes>
+  </test> <!-- Test 1 -->
+</suite> <!-- Failed suite [Parameters TestSuite] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Paralle Classes Test Suite]" parallel="classes">
+  <test name="Parallel Classes Scenarios">
+    <classes>
+      <class name="com.calculator.TestNG_CalculatorMethod"/>
+      <class name="com.calculator.dataprovider.TestNG_TestAnnotation"/>
+      <class name="com.calculator.groups.TestNG_groups"/>
+    </classes>
+  </test> <!-- Parallel Classes Scenarios -->
+</suite> <!-- Failed suite [Paralle Classes Test Suite] -->

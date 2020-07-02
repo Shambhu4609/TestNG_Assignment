@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs once before class]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> testMethod2]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> testMethod1]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> testMethod3]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> This runs once after class]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47" started-at="2020-07-02T19:04:56Z" finished-at="2020-07-02T19:04:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47" started-at="2020-07-02T19:04:56Z" finished-at="2020-07-02T19:04:56Z">
+      <class name="com.calculator.report.TestNG_ReportsAndLogs">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="setUp" is-config="true" duration-ms="15" started-at="2020-07-03T00:34:56Z" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs once before class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="testMethod2" duration-ms="16" started-at="2020-07-03T00:34:56Z" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> testMethod2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-03T00:34:56Z" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-03T00:34:56Z" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="cleanUp" is-config="true" duration-ms="0" started-at="2020-07-03T00:34:56Z" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs once after class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="testMethod3()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="testMethod3" duration-ms="0" started-at="2020-07-03T00:34:56Z" depends-on-methods="com.calculator.report.TestNG_ReportsAndLogs.testMethod2" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> testMethod3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-07-03T00:34:56Z" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="testMethod1" duration-ms="0" started-at="2020-07-03T00:34:56Z" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> testMethod1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-07-03T00:34:56Z" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-07-03T00:34:56Z" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.calculator.report.TestNG_ReportsAndLogs@1ff8b8f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-03T00:34:56Z" finished-at="2020-07-03T00:34:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+      </class> <!-- com.calculator.report.TestNG_ReportsAndLogs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

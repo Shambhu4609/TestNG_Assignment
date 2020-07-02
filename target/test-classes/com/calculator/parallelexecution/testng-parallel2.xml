@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Paralle Classes Test Suite" parallel="classes" thread-count="3" >
+
+	<test name="Parallel Classes Scenarios">
+	
+		<classes>
+			<class name="com.calculator.TestNG_CalculatorMethod"></class>
+			<class name="com.calculator.dataprovider.TestNG_TestAnnotation"></class>
+			<class name="com.calculator.groups.TestNG_groups"></class> 
+		</classes>
+	
+	</test>
+	
+</suite>

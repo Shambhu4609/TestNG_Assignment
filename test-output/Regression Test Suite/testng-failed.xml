@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Suite]" parallel="none">
+  <test name="Grouping Scenarios">
+    <groups>
+      <define name="All">
+        <include name="Smoke"/>
+        <include name="Reg"/>
+        <include name="Sanity"/>
+        <include name="System"/>
+      </define> <!-- All -->
+      <define name="One">
+        <include name="Smoke"/>
+        <include name="Reg"/>
+      </define> <!-- One -->
+      <define name="Two">
+        <include name="Sanity"/>
+        <include name="Reg"/>
+      </define> <!-- Two -->
+      <define name="Three">
+        <include name="System"/>
+        <include name="Smoke"/>
+      </define> <!-- Three -->
+      <run>
+        <include name="All"/>
+        <include name="Reg"/>
+        <exclude name="System"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.calculator.groups.TestNG_groups"/>
+    </classes>
+  </test> <!-- Grouping Scenarios -->
+</suite> <!-- Failed suite [Regression Test Suite] -->
